@@ -27,7 +27,7 @@ Urgante relies on third-party Pure Data externals and abstractions:
 
 1. Clone the Urgante repository to your local machine:
     ```bash
-    git clone https://github.com/fqfdev/urgante.git
+    git clone https://github.com/fqfdev/Urgante_demo.git
     ```
 
 2. Open `urgante.pd` in Pure Data.

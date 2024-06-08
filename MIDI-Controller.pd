@@ -1,0 +1,29 @@
+#N canvas 399 155 757 477 10;
+#X declare -path else;
+#X obj 154 83 nbx 4 14 -1e+37 1e+37 0 0 empty empty note 0 -8 0 10
+-228856 -1 -1 0 256;
+#X obj 205 83 nbx 4 14 -1e+37 1e+37 0 0 empty empty vel 0 -8 0 10 -228856
+-1 -1 0 256;
+#X obj 73 80 notein;
+#X obj 264 83 nbx 4 14 -1e+37 1e+37 0 0 empty empty chan 0 -8 0 10
+-228856 -1 -1 0 256;
+#X obj 68 347 unpack float float;
+#X obj 252 370 nbx 2 14 -1e+37 1e+37 0 0 empty empty vel 0 -8 0 8 -228856
+-1 -1 0 256;
+#X obj 213 370 nbx 3 14 -1e+37 1e+37 0 0 empty empty note 0 -8 0 8
+-228856 -1 -1 0 256;
+#X obj 69 370 s MIDInote;
+#X obj 140 370 s MIDIvel;
+#X obj 193 261 keyboard 17 40 2 3 0;
+#X obj 417 23 declare -path else;
+#X connect 2 0 0 0;
+#X connect 2 0 9 0;
+#X connect 2 1 1 0;
+#X connect 2 1 9 1;
+#X connect 2 2 3 0;
+#X connect 4 0 6 0;
+#X connect 4 0 7 0;
+#X connect 4 1 5 0;
+#X connect 4 1 8 0;
+#X connect 9 0 4 0;
+#X coords 0 -1 1 1 350 60 1 100 250;

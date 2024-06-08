@@ -1,0 +1,17 @@
+Mode 	Tonic  	Interval sequence 	Example
+
+Ionian 	I 	W–W–H–W–W–W–H 	C–D–E–F–G–A–B–C
+Dorian 	II 	W–H–W–W–W–H–W 	D–E–F–G–A–B–C–D
+Phrygian III 	H–W–W–W–H–W–W 	E–F–G–A–B–C–D–E
+Lydian 	IV 	W–W–W–H–W–W–H 	F–G–A–B–C–D–E–F
+Mixolydian V 	W–W–H–W–W–H–W 	G–A–B–C–D–E–F–G
+Aeolian VI 	W–H–W–W–H–W–W 	A–B–C–D–E–F–G–A
+Locrian VII 	H–W–W–H–W–W–W 	B–C–D–E–F–G–A–B 
+
+Ionian 	0 	2–4–5–7–9–11–12 	D–E–F–G–A–B–C
+Dorian 	2 	4–5–7–W–W–H–W 	E–F–G–A–B–C–D
+Phrygian III 	H–W–W–W–H–W–W 	F–G–A–B–C–D–E
+Lydian 	IV 	W–W–W–H–W–W–H 	G–A–B–C–D–E–F
+Mixolydian V 	W–W–H–W–W–H–W 	A–B–C–D–E–F–G
+Aeolian VI 	W–H–W–W–H–W–W 	B–C–D–E–F–G–A
+Locrian VII 	H–W–W–H–W–W–W 	C–D–E–F–G–A–B 

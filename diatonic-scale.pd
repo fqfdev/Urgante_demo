@@ -1,0 +1,48 @@
+#N canvas 84 50 627 536 10;
+#X obj 23 293 +;
+#X obj 212 209 nbx 4 16 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 12
+-262130 -4160 -1 5 256;
+#N canvas 0 0 450 300 (subpatch) 0;
+#X array scale 15 float 3;
+#A 0 0 2 4 5 7 9 11 12 14 16 17 19 21 23 24;
+#X coords 0 24 15 0 200 140 1;
+#X restore 212 238 graph;
+#X obj 143 131 nbx 1 14 0 6 0 1 empty empty mode 0 -8 0 10 -262144
+-1 -1 0 256;
+#X msg 143 412 \; scale 0 0 2 4 5 7 9 11 12 14 16 17 19 21 23 24 \;
+;
+#X obj 215 380 hsl 195 15 0 15 0 0 empty empty empty -2 -8 0 10 -258113
+-4032 -1 6467 1;
+#X obj 23 194 +;
+#X obj 23 227 tabread scale;
+#X obj 143 371 loadbang;
+#X text 177 110 <-- 0 = ionian \, 1 = dorian \, 2 = phrygisch \, 3
+= lydian \, 4 = mixolydian \, 5 = aeolian \, 6 = locrian;
+#X obj 96 130 nbx 3 14 0 127 0 1 empty empty root 0 -8 0 10 -262144
+-1 -1 60 256;
+#X obj 136 59 loadbang;
+#X floatatom 43 313 3 0 0 0 - - -;
+#X floatatom 34 45 5 0 0 0 - - -;
+#X obj 23 25 inlet degree;
+#X obj 23 469 outlet note;
+#X obj 31 91 nbx 2 14 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10
+-262144 -1 -1 0 256;
+#X obj 124 27 inlet root;
+#X obj 221 27 inlet mode;
+#X connect 0 0 12 0;
+#X connect 0 0 15 0;
+#X connect 1 0 5 0;
+#X connect 3 0 6 1;
+#X connect 6 0 1 0;
+#X connect 6 0 7 0;
+#X connect 7 0 0 0;
+#X connect 8 0 4 0;
+#X connect 10 0 0 1;
+#X connect 11 0 3 0;
+#X connect 11 0 10 0;
+#X connect 14 0 6 0;
+#X connect 14 0 13 0;
+#X connect 16 0 6 0;
+#X connect 17 0 10 0;
+#X connect 18 0 3 0;
+#X coords 0 -1 1 1 85 50 1 90 100;

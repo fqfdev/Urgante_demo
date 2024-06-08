@@ -1,0 +1,17 @@
+#N canvas 581 154 450 300 10;
+#X obj 79 167 noteout;
+#X obj 84 49 unpack f f f;
+#X floatatom 54 113 2 0 0 0 - - -;
+#X floatatom 96 113 3 0 0 0 - - -;
+#X floatatom 72 113 3 0 0 0 - - -;
+#X obj 128 144 outlet vel;
+#X obj 84 26 inlet MIDImsg;
+#X connect 1 0 2 0;
+#X connect 1 0 0 2;
+#X connect 1 1 4 0;
+#X connect 1 1 0 0;
+#X connect 1 2 3 0;
+#X connect 1 2 0 1;
+#X connect 1 2 5 0;
+#X connect 6 0 1 0;
+#X coords 0 -1 1 1 70 30 1 50 100;

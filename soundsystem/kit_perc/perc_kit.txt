@@ -1,0 +1,10 @@
+kick.wav 10
+snare.wav 11
+hihat-closed.wav 12
+hihat-foot.wav 13
+hihat-open.wav 14
+bongo-high.wav 15
+bongo-low.wav 16
+bongo-slap.wav 17
+timbal-high.wav 18
+timbal-low.wav 19

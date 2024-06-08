@@ -1,0 +1,33 @@
+#N canvas 257 51 627 536 10;
+#X obj 23 293 +;
+#X obj 143 131 nbx 1 14 0 6 0 1 empty empty mode 0 -8 0 10 -262144
+-1 -1 0 256;
+#X obj 23 194 +;
+#X text 177 110 <-- 0 = ionian \, 1 = dorian \, 2 = phrygisch \, 3
+= lydian \, 4 = mixolydian \, 5 = aeolian \, 6 = locrian;
+#X obj 96 130 nbx 3 14 0 127 0 1 empty empty root 0 -8 0 10 -262144
+-1 -1 36 256;
+#X obj 136 56 loadbang;
+#X floatatom 43 313 3 0 0 0 - - -;
+#X floatatom 34 45 5 0 0 0 - - -;
+#X obj 23 25 inlet degree;
+#X obj 23 469 outlet note;
+#X obj 31 91 nbx 2 14 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10
+-262144 -1 -1 0 256;
+#X obj 104 25 inlet root;
+#X obj 213 26 inlet mode;
+#X obj 23 227 tabread diatonicScale;
+#X connect 0 0 6 0;
+#X connect 0 0 9 0;
+#X connect 1 0 2 1;
+#X connect 2 0 13 0;
+#X connect 4 0 0 1;
+#X connect 5 0 1 0;
+#X connect 5 0 4 0;
+#X connect 8 0 2 0;
+#X connect 8 0 7 0;
+#X connect 10 0 2 0;
+#X connect 11 0 4 0;
+#X connect 12 0 1 0;
+#X connect 13 0 0 0;
+#X coords 0 -1 1 1 85 50 1 90 100;

@@ -65,6 +65,3 @@ For questions, issues, or suggestions, please open an issue on GitHub or contact
 
 
 
-*Happy music making!*
-
-
